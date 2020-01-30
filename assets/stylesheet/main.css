@@ -1,0 +1,281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/************ General ************/
+
+/* Anchor tag decoration */
+a {
+    text-decoration: none;
+}
+body {
+    line-height: 1.7;
+    font-family: 'Raleway', sans-serif;
+}
+/* Clearfix */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Box sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+/* Container  */
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Padding */
+.padding {
+    padding: 60px 0;
+}
+
+/* Text center */
+.text-center {
+    text-align: center;
+}
+/* Button */
+.btn {
+    padding: 24px 8px;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px 40px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+
+
+
+
+
+/* Header */
+.header {
+    background: url('../media/images/banner.jpg');
+    /* height: 896px; */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text-logo {
+    float: left;
+    color: #ffffff;
+    font-size: 24px;
+    padding-left: 40px;
+}
+.nav-bar {
+    float: right;
+    word-spacing: 12px;
+    padding-right: 40px;
+}
+.nav-bar a {
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.icon {
+    text-align: center;
+}
+.icon .far {
+    border-radius: 100%;
+    border: solid 2px #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 3em;
+    height: 2.25em;
+    line-height: 1.25em;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+width: 2.25em;
+}
+.primary-para {
+    font-size: 24px;
+    word-spacing: 8px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.primary-btn {
+    background-color: #51BAA4;
+    border: 1px solid #51BAA4;
+    color: #ffffff;
+}
+
+.col-1-2 {
+    width: 50%;
+}
+.hero-section {
+    padding: 60px 60px;
+}
+ 
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #51BAA4;
+    color: #51BAA4;
+}
+.first-class {
+    font-size: 0;
+}
+.text-left {
+    text-align: left;
+    padding: 20px;
+}
+.hero-heading {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 20px 20px 0px;
+}
+.secondary-para {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px 20px 20px 0px;
+}
+.bg-color {
+    background-color: #EEEEEE;
+}
+.bg-secondary-color {
+    background-color: #ffffff;
+}
+.hero-image-1 {
+    float: left;
+}
+.hero-text-1 {
+    float: left;
+}
+
+.hero-image-2 {
+    float: right;
+    margin-right: -85px;
+}
+.hero-text-2 {
+    float: right;
+}
+.secondary-btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.secondary-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tertiary-padding {
+    padding-left: 40px;
+}
+.gallery-heading {
+    font-size: 32px;
+    font-weight: 800;
+}
+.gallery-para {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 0 40px 0;
+}
+.btn-margin{
+    margin: 20px 0 40px 0;
+}
+.images {
+    float: left;
+}
+.images-btn-padding {
+    padding-top: 40px;
+}
+.more-text {
+    background: url('../media/images/pic11.jpg');
+    /* height: 896px; */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.more-text-button {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+.contact-bg{
+   background-color:  #1E2832;
+}
+.contact-heading {
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.contact-button {
+    background-color: #51BAA4;
+    color: #ffffff;
+}
+.input {
+    background-color: #29333C;
+    border: 0;
+}
+.small-form {
+    padding: 10px 40px;
+}
+.message-text {
+    margin: 10px 0;
+    padding: 20px;
+}
+.icon {
+    border-top: 1px solid grey;
+    padding: 40px 0;
+}
+.icon i{
+    font-size: 28px;
+    color: #A5A9AD;
+    padding: 10px;
+}
